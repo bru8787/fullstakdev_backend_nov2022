@@ -2,7 +2,8 @@
 
 namespace App\Services;
 use App\Models\Student;
-use PDF;
+use \Barryvdh\DomPDF\Facade\Pdf;
+
 class CreatePdf
 {
     public static function createPDF() 
